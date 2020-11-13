@@ -1,0 +1,49 @@
+.sale-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(237, 237, 237, 0.7);
+}
+
+.sale-item {
+    margin: 20px 20px 20px 0px;
+    border-radius: 0.5rem;
+    width: 280px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 15px;
+    position: relative;
+    
+}
+
+.sale-item:nth-child(1) {
+    margin-left: 95px;
+    background-color: #C7071A;
+}
+
+.sale-item:nth-child(2) {
+    background-color: #FFE000;
+}
+
+.sale-item:nth-child(3) {
+    background-color: #82E708;
+}
+
+.sale-item:nth-child(4) {
+    background-color: #08D4E7;
+}
+
+.money-item1,
+.money-item2 {
+    font-size: 170%;
+    color: white;
+}
+
+.sale-type>span {
+    color: rgb(255, 255, 255, 0.8);
+    font-style: italic;
+}

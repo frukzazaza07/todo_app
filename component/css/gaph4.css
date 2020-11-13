@@ -1,0 +1,150 @@
+.gaph-content1 {
+    grid-area: left1;
+    width: 492.16px;
+    height: 285px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.gaph-content1>.icon-item {
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.gaph-content2 {
+    grid-area: left2;
+    width: 492.16px;
+    height: 285px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 20px;
+}
+
+.gaph-content2>.icon-item {
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.gaph-content3 {
+    grid-area: right1;
+    width: 650px;
+    height: 590px;
+    background-color: white;
+    margin-left: 33px;
+}
+
+.gaph-content3>.gaph-item {
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.gaph-content4 {
+    background-color: white;
+    width: 1174px;
+    margin-top: 20px;
+
+}
+
+.gaph-body1 {
+    background-color: rgb(237, 237, 237, 0.7);
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+        'left1 left1 left1 right1 right1 right1'
+        'left2 left2 left2 right1 right1 right1'
+    ;
+    padding: 0px 25px 0px 330px;
+
+}
+
+.gaph-body3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 23.5px 0px 330px;
+    margin-top: 25px;
+}
+
+.gaph3-content {
+    background-color: white;
+}
+
+.nav-type {
+    list-style-type: none;
+    margin: 15px 0px 0px 20px;
+    padding: 0;
+}
+
+.nav-type>li {
+    /* display: inline-block;
+    padding: 15px;
+    margin-left: -5px;
+    cursor: pointer;
+    font-size: 13px;
+    vertical-align: bottom; */
+    display: inline-block;
+    padding: 15px;
+    margin-left: -5px;
+    cursor: pointer;
+    font-size: 13px;
+    vertical-align: bottom;
+}
+
+.nav-type>li:first-child {
+    margin-left: 0;
+}
+
+.content-box {
+    min-height: 100px;
+    border-top: 1px solid #e6e6e6;
+    padding: 10px;
+    margin: -1px 20px 0px 20px;
+
+}
+
+.nav-type>li:hover {
+    border-style: solid;
+    border-color: #e6e6e6;
+    border-width: 1px 1px 0 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.liactive {
+    background-color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    border-width: 1px 1px 0 1px;
+    padding-top: 18px;
+    /* 15 + 3 */
+}
+
+.aactive {
+    color: rebeccapurple;
+}
+
+.nav-type>li>a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.nav-type>li>a {
+    display: block;
+    opacity: 0.8;
+}
+
+#chartLine:hover {
+    opacity: 1;
+}
+
+#chartBar:hover {
+    opacity: 1;
+}
+
+.lineOrBarActive {
+    opacity: 1;
+}

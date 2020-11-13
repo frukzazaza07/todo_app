@@ -1,0 +1,36 @@
+/* content body */
+.content-body {
+    background-color: rgb(237, 237, 237, 0.7);
+    padding: 20px 20px 20px 21%;
+}
+
+.container-body {
+    z-index: 2;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+.branch-item>li {
+    z-index: 999;
+    color: rgb(39, 32, 32, 0.7);
+}
+
+.branch-item>li:hover {
+    background-color: #2B3489;
+    color: white;
+}
+
+.branch-body {
+    overflow-y: scroll;
+    height: 150px;
+}
+
+.branch-item {
+    display: none;
+    height: auto;
+
+}
+
+.branch-item-active {
+    display: block;
+}
